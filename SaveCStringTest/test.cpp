@@ -24,7 +24,7 @@ namespace SafeCStringTest {
         EXPECT_STREQ("qwer", SafeCString::strcpy(target, "qwer")) << "4  character source copied correctly";
         EXPECT_STREQ("", SafeCString::strcpy(target, "")) << "Empty string copied correctly";
         EXPECT_STREQ("def", SafeCString::strcpy(target, "def")) << "3 character source copied correctly";
-        EXPECT_STREQ("def", SafeCString::strcpy(target, nullptr)) << "Nothing changed when copying a nulltr";
+        EXPECT_STREQ("def", SafeCString::strcpy(target, nullptr)) << "Nothing changed when copying a nullptr";
     }
 
     TEST(SafeCStringTest, StrcatTest) {
