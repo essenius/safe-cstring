@@ -1,2 +1,2 @@
 # safe-cstring
-Safer versions of strcat, strcpy, strtok, and sprintf
+Safer versions of strcat, strcpy, and sprintf
