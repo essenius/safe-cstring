@@ -1,0 +1,3 @@
+SafeCString	KEYWORD1
+pointerStrcpy	KEYWORD2
+pointerSprintf	KEYWORD2

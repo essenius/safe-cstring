@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SafeCString", "SafeCString\SafeCString.vcxitems", "{24D4E262-19BD-4F3C-8E9E-C66CF95663E0}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SaveCStringTest", "SaveCStringTest\SaveCStringTest.vcxproj", "{FECB7707-94B2-415F-B01B-4B46ED0330C0}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SafeCStringTest", "SafeCStringTest\SafeCStringTest.vcxproj", "{FECB7707-94B2-415F-B01B-4B46ED0330C0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F3DE1330-7601-4F36-960F-AFA3C5C4C36F}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
 		CodeCoverage.runsettings = CodeCoverage.runsettings
 	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SafeCString", "SafeCString\SafeCString.vcxitems", "{24D4E262-19BD-4F3C-8E9E-C66CF95663E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

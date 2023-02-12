@@ -10,10 +10,8 @@
 // See the License for the specific language governing permissions and limitations under the License.
 
 #include "pch.h"
-
 #include "gtest/gtest.h"
 #include "../SafeCString/SafeCString.h"
-
 
 namespace SafeCStringTest {
 
@@ -91,10 +89,4 @@ namespace SafeCStringTest {
         EXPECT_STREQ("", SafeCString::pointerStrcpy(pointer, target, "")) << "Empty string returned";
         EXPECT_STREQ("", pointer) << "Empty string copied";
     }
-}
-
-#include "../SafeCString/SafeCString.h"
-TEST(TestCaseName, TestName) {
-  EXPECT_EQ(1, 1);
-  EXPECT_TRUE(true);
 }
