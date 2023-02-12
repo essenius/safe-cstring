@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcxproj", "{F706F41C-DDB1-483D-9CA5-FA33B04BCDDA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EC004E51-EEB5-44FB-BA87-AA6B57A937B3}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		CodeCoverage.runsettings = CodeCoverage.runsettings
+		keywords.txt = keywords.txt
+		library.properties = library.properties
+		LICENSE = LICENSE
+		post-build.cmd = post-build.cmd
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "src", "src\src.vcxproj", "{A9CACFE4-957F-4E6D-B627-A2341B43CC31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{980A866A-2144-4EAF-B1D8-B61160EA0250}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SafeCStringDemo", "SafeCStringDemo", "{B3F8E08F-F8B9-45BB-92A7-92EA20267FFE}"
+	ProjectSection(SolutionItems) = preProject
+		examples\SafeCStringDemo\SafeCStringDemo.ino = examples\SafeCStringDemo\SafeCStringDemo.ino
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F706F41C-DDB1-483D-9CA5-FA33B04BCDDA}.Debug|x64.ActiveCfg = Debug|x64
+		{F706F41C-DDB1-483D-9CA5-FA33B04BCDDA}.Debug|x64.Build.0 = Debug|x64
+		{F706F41C-DDB1-483D-9CA5-FA33B04BCDDA}.Debug|x86.ActiveCfg = Debug|Win32
+		{F706F41C-DDB1-483D-9CA5-FA33B04BCDDA}.Debug|x86.Build.0 = Debug|Win32
+		{F706F41C-DDB1-483D-9CA5-FA33B04BCDDA}.Release|x64.ActiveCfg = Release|x64
+		{F706F41C-DDB1-483D-9CA5-FA33B04BCDDA}.Release|x64.Build.0 = Release|x64
+		{F706F41C-DDB1-483D-9CA5-FA33B04BCDDA}.Release|x86.ActiveCfg = Release|Win32
+		{F706F41C-DDB1-483D-9CA5-FA33B04BCDDA}.Release|x86.Build.0 = Release|Win32
+		{A9CACFE4-957F-4E6D-B627-A2341B43CC31}.Debug|x64.ActiveCfg = Debug|x64
+		{A9CACFE4-957F-4E6D-B627-A2341B43CC31}.Debug|x64.Build.0 = Debug|x64
+		{A9CACFE4-957F-4E6D-B627-A2341B43CC31}.Debug|x86.ActiveCfg = Debug|Win32
+		{A9CACFE4-957F-4E6D-B627-A2341B43CC31}.Debug|x86.Build.0 = Debug|Win32
+		{A9CACFE4-957F-4E6D-B627-A2341B43CC31}.Release|x64.ActiveCfg = Release|x64
+		{A9CACFE4-957F-4E6D-B627-A2341B43CC31}.Release|x64.Build.0 = Release|x64
+		{A9CACFE4-957F-4E6D-B627-A2341B43CC31}.Release|x86.ActiveCfg = Release|Win32
+		{A9CACFE4-957F-4E6D-B627-A2341B43CC31}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{980A866A-2144-4EAF-B1D8-B61160EA0250} = {EC004E51-EEB5-44FB-BA87-AA6B57A937B3}
+		{B3F8E08F-F8B9-45BB-92A7-92EA20267FFE} = {980A866A-2144-4EAF-B1D8-B61160EA0250}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46570238-BB40-416C-9707-D9525F01A9F6}
+	EndGlobalSection
+EndGlobal
