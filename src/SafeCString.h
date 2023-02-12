@@ -15,6 +15,10 @@
 #ifndef HEADER_SAFECSTRING
 #define HEADER_SAFECSTRING
 
+#ifndef _CRT_SECURE_NO_WARNINGS
+#define _CRT_SECURE_NO_WARNINGS
+#endif
+
 #include <cstring>
 #include <cstdio>
 
