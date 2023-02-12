@@ -17,7 +17,7 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)src\SafeCString.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$(MSBuildThisFileDirectory)examples\SafeCStringDemo\SafeCStringDemo.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)examples\SafeCStringDemo\SafeCStringDemo.ino" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="$(MSBuildThisFileDirectory)keywords.txt" />
