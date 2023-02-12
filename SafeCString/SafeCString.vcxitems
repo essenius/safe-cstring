@@ -14,7 +14,7 @@
     <ProjectCapability Include="SourceItemsFromImports" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="$(MSBuildThisFileDirectory)SafeCString.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\SafeCString.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="$(MSBuildThisFileDirectory)examples\SafeCStringDemo\SafeCStringDemo.cpp" />

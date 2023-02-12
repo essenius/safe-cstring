@@ -11,7 +11,7 @@
 
 #include "pch.h"
 #include "gtest/gtest.h"
-#include "../SafeCString/SafeCString.h"
+#include "../SafeCString/src/SafeCString.h"
 
 namespace SafeCStringTest {
 
