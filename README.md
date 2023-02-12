@@ -5,12 +5,12 @@ original versions, but they will not write across the boundaries of the buffer.
 
 Pointer implementations of `strcpy` and `sprintf` are provided as well (using a reference to the underlying buffer).
 
-I'm doing this as the classic const char* are still used a lot in Arduino land since the String implementation often fragments
-the heap too much, and the classic implementation is much more stable. That is, unless you get into buffer overflows.
+I'm doing this as the classic `const char*` strings are still used a lot in Arduino land since the `String` implementation often 
+fragments the heap too much, and the classic implementation is much more stable. That is, unless you get into buffer overflows.
 
 The goal of this project was to learn how to create an Arduino library, and be able to test it on the host machine 
 (in my case Windows 11). I'm using Visual Studio 2022 as develompent environment so therefore you will also see
-.sln and .vcxproj files.
+`.sln` and `.vcxproj` files.
 
 This library is a simple header-only one that does not use any Arduino specific functions, so it is a good first use case.
 
