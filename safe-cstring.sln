@@ -8,12 +8,13 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EC004E51-EEB5-44FB-BA87-AA6B57A937B3}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
-		CodeCoverage.runsettings = CodeCoverage.runsettings
 		keywords.txt = keywords.txt
+		.runsettings = .runsettings
 		library.properties = library.properties
 		LICENSE = LICENSE
 		post-build.cmd = post-build.cmd
 		README.md = README.md
+		safe-cstring.sln.DotSettings = safe-cstring.sln.DotSettings
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "src", "src\src.vcxproj", "{A9CACFE4-957F-4E6D-B627-A2341B43CC31}"
