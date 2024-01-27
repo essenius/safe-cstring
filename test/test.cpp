@@ -48,15 +48,17 @@ namespace SafeCStringTest {
     TEST(SafeCStringTest, PointerSprintfTest) {
         char target[10] = { 0 };
         char* pointer = target;
-        EXPECT_EQ(2, SafeCString::pointerSprintf(pointer, target, "y%d", 4)) << "Right expected number of characters written 1";
+        EXPECT_EQ(2, SafeCString::pointerSprintf(pointer, target, "y%d", 4)) << "Right expected number of characters written (int)";
         EXPECT_STREQ("y4", pointer) << "right string written 1";
         pointer += 3;
-        EXPECT_EQ(9, SafeCString::pointerSprintf(pointer, target, "%s", "abcdefghi")) << "Right expected number of characters written 2";
+        EXPECT_EQ(9, SafeCString::pointerSprintf(pointer, target, "%s", "abcdefghi")) << "Right expected number of characters written (string)";
         EXPECT_STREQ("abcdef", pointer) << "right string written 2 (less than expected";
         pointer += 10;
-        EXPECT_EQ(0, SafeCString::pointerSprintf(pointer, target, "%s", "abcdefghi")) << "Nothing written as above upper bound";
+        EXPECT_EQ(0, SafeCString::pointerSprintf(pointer, target, "%s", "abcdefghi")) << "Nothing written as above upper bound (string)";
+        EXPECT_EQ(0, SafeCString::pointerSprintf(pointer, target, "%d", 5)) << "Nothing written as above upper bound (int)";
         pointer -= 20;
-        EXPECT_EQ(0, SafeCString::pointerSprintf(pointer, target, "%s", "abcdefghi")) << "Nothing written as below lower bound";
+        EXPECT_EQ(0, SafeCString::pointerSprintf(pointer, target, "%s", "abcdefghi")) << "Nothing written as below lower bound (string)";
+        EXPECT_EQ(0, SafeCString::pointerSprintf(pointer, target, "%d", 6)) << "Nothing written as below lower bound (int)";
         pointer = target;
         EXPECT_STREQ("y4", pointer) << "Buffer untouched after wrong bounds 1";
         pointer += 3;
